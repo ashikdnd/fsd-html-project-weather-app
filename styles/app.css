@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700&family=Titillium+Web:wght@200;600&display=swap');
+
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  white !important;
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: 300;
+    font-size:  13px;
+}
+.container {
+    min-height: 300px;
+    padding: 0;
+    width: 900px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background: rgb(114,147,198);
+    background: linear-gradient(180deg, rgba(114,147,198,1) 0%, rgba(179,175,202,1) 50%, rgba(238,198,190,1) 100%);
+    box-shadow: -2px 3px 10px -3px rgb(0 0 0 / 71%);
+    -webkit-box-shadow: -2px 3px 10px -3px rgb(0 0 0 / 71%);
+    -moz-box-shadow: -2px 3px 10px -3px rgba(0,0,0,0.71);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header {
+    position: relative;
+}
+.wrapper {
+    margin: 30px 50px;
+}
+.location {
+    margin-bottom:  20px;
+}
+.temp-info {
+    text-align: right;
+    position: absolute;
+    top: -22px;
+    right: 0;
+}
+.low-high {
+    font-size:  24px;
+    margin-right:  15px;
+}
+.weather-holder {
+    width: 650px;
+    min-height: 400px;
+    background-image: url(../images/cloud.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 12px;
+    background-size: 1252px 881px;
+    margin: 70px 0;
+}
+.huge-text {
+    font-size: 100px;
+    font-weight: 700;
+}
+.bold-text {
+    font-weight: 700;
+    font-size:  32px;
+}
+.semi-bold-text {
+    font-weight: 500;
+    font-size:  20px;
+}
+.inline-div {
+    display: inline-block;
+    width:  49%;
+}
+
+.weather-details {
+    margin-top: 42px;
+}
+.hourly-temp {
+    width: 100%;
+    overflow-x:  auto;
+    overflow-y:  hidden;
+    white-space: nowrap;
+}
+.slots {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ffffff;
+}
+.slots span {
+    font-size:  16px !important;
+    margin-right:  12px;
+    cursor:  pointer;
+}
+
+.slots span.inactive {
+    color:  #cecece;
+}
+.slots span.active {
+    font-weight: 700;
+    border-bottom: 3px solid white;
+}
+.temp-holder {
+    display: inline-block;
+    text-align: center;
+    margin-top: 14px;
+    background: #404040;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+.temp {
+    font-size: 16px;
+    font-weight: 700;
+}
+.temp-img {
+    width: 32px;
+    margin: 5px 0;
+}
+
+/* 
+
+Absolute Path - Path to a file from the root of the drive
+Relative Path - Path to a file from the current file or directory
+
+*/
